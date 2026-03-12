@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio do Dado</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>🎲 O Dado</h1>
+
+    <img id="dice-image" class="dice-image" src="assets/dice-1.svg" alt="Face 1 do dado" />
+
+    <p id="message" class="message">Clique no botão para sortear seu número!</p>
+
+    <label for="custom-text" class="input-label">Texto personalizado da mensagem:</label>
+    <input
+      id="custom-text"
+      class="text-input"
+      type="text"
+      placeholder="Ex.: Hoje é meu dia de sorte!"
+      maxlength="80"
+    />
+
+    <button id="roll-button" class="roll-button" type="button">Sortear dado</button>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
