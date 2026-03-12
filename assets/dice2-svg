@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="Face 2 do dado">
+  <rect x="10" y="10" width="160" height="160" rx="24" fill="#ffffff" stroke="#1f2937" stroke-width="8"/>
+  <circle cx="55" cy="55" r="10" fill="#111827"/>
+  <circle cx="125" cy="125" r="10" fill="#111827"/>
+</svg>
